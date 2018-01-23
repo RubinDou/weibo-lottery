@@ -132,11 +132,6 @@ public class ScheduledWeiboMonitorJob {
                 e.printStackTrace();
             }
         }
-        try {
-            HttpClientUtils.closeHttpClient();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
         logger.info("Weibo Monitor Job End, Time:{}", new Date());
     }
 
