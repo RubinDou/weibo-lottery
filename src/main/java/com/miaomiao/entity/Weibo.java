@@ -48,4 +48,92 @@ public class Weibo implements Serializable {
 
     //更新时间
     private Date updateDate;
+
+    public String getMid() {
+        return mid;
+    }
+
+    public void setMid(String mid) {
+        this.mid = mid;
+    }
+
+    public String getUid() {
+        return uid;
+    }
+
+    public void setUid(String uid) {
+        this.uid = uid;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+    public boolean isFollowed() {
+        return isFollowed;
+    }
+
+    public void setFollowed(boolean followed) {
+        isFollowed = followed;
+    }
+
+    public boolean isNeedForward() {
+        return needForward;
+    }
+
+    public void setNeedForward(boolean needForward) {
+        this.needForward = needForward;
+    }
+
+    public boolean isForwarded() {
+        return isForwarded;
+    }
+
+    public void setForwarded(boolean forwarded) {
+        isForwarded = forwarded;
+    }
+
+    public boolean isNeedReply() {
+        return needReply;
+    }
+
+    public void setNeedReply(boolean needReply) {
+        this.needReply = needReply;
+    }
+
+    public boolean isReplyed() {
+        return isReplyed;
+    }
+
+    public void setReplyed(boolean replyed) {
+        isReplyed = replyed;
+    }
+
+    public boolean isCompleted() {
+        return isCompleted;
+    }
+
+    public void setCompleted(boolean completed) {
+        isCompleted = completed;
+    }
+
+    public String getTopic() {
+        return topic;
+    }
+
+    public void setTopic(String topic) {
+        this.topic = topic;
+    }
+
+    public Date getUpdateDate() {
+        return updateDate;
+    }
+
+    public void setUpdateDate(Date updateDate) {
+        this.updateDate = updateDate;
+    }
 }
